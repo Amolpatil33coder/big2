@@ -1,6 +1,11 @@
 
 
 
+
+sudo hdfs hdfs dfs safe node remove
+hdfs dfsadmin -safemode get
+sudo -u hdfs hdfs dfsadmin -safemode leave
+
 Assignment No. 1
 Linux Command
 Create File in Linux
